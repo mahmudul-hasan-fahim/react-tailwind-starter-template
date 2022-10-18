@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .theme-btn-active {
+        @apply bg-white dark:bg-slate-800;
+    }
+}
